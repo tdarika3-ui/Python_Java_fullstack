@@ -1,0 +1,13 @@
+PROBLEM BASED I+ON INTERVIEW
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    int v=sc.nextInt();
+	    int w=sc.nextInt();
+	    int tw=((v*4)-w)/2;
+	    int fw=v-tw;
+		System.out.println(tw+" "+fw);
+	}
+}
